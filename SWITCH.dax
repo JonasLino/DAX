@@ -1,0 +1,7 @@
+Classificação Nota = SWITCH(
+    			TRUE(),
+    			Aluno[Nota] >= 9, "Excelente",
+    			Aluno[Nota] >= 7, "Bom",
+    			Aluno[Nota] >= 5, "Regular",
+    			"Insuficiente"
+			   )

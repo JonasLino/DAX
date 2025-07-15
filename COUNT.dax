@@ -1,0 +1,1 @@
+Total de Pedidos = COUNT(Pedidos[ID])

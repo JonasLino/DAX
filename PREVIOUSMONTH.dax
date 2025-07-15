@@ -1,0 +1,4 @@
+Vendas Mês Anterior = CALCULATE(
+    		         SUM(Vendas[Valor]),
+    			    PREVIOUSMONTH(Data[Data])
+				)

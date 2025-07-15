@@ -1,0 +1,5 @@
+Ticket Médio = DIVIDE(
+    	          SUM(Vendas[Valor]),
+    		  SUM(Vendas[Quantidade]),
+   		  0
+		     )

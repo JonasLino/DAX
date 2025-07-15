@@ -1,0 +1,6 @@
+% da Receita Total = DIVIDE(
+    		        SUM(Vendas[Valor]),
+    			CALCULATE(SUM(Vendas[Valor]),
+
+			   ALL(Vendas))
+			   )

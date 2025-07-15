@@ -1,0 +1,4 @@
+Clientes Ativos = CALCULATE(
+    		     COUNT(Clientes[ID]),
+    		        FILTER(Clientes, Clientes[Status] = "Ativo")
+			   )

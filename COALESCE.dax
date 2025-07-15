@@ -1,0 +1,7 @@
+Abertos = COALESCE(
+	     CALCULATE(
+                COUNT('GLPI'[id]),
+                   USERELATIONSHIP('GLPI'[DtAbertura],
+                                   'Calendário'[Data]) 
+                       )
+		,0)

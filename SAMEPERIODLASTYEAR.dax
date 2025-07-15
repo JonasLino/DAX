@@ -1,0 +1,4 @@
+Vendas LY = CALCULATE(
+    	       SUM(Vendas[Valor]),
+    	          SAMEPERIODLASTYEAR(Data[Data])
+		     )

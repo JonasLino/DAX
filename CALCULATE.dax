@@ -1,0 +1,4 @@
+Receita 2024 = CALCULATE(
+    	          SUM(Vendas[Valor]),
+    		  Ano[Nome] = "2024"
+			)
